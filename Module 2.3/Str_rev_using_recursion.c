@@ -11,13 +11,14 @@ main()
 	
 	
 	len=strlen(str);
-	printf("\n\n %d ",len);
+	printf("\n\n %d \n\n",len);
 	for(i=len-1;i>=0;i--)
 	{
 		str1[j]=str[i];
+		printf("%c",str1[j]);
 		j++;
 	}
 	
-	puts(str1);
+	
 
 }
