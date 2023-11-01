@@ -10,6 +10,7 @@ main()
 	 printf("\n %s",str);
 	
 	
+	
 	len=strlen(str);
 	printf("\n\n %d \n\n",len);
 	for(i=len-1;i>=0;i--)
@@ -18,7 +19,5 @@ main()
 		printf("%c",str1[j]);
 		j++;
 	}
-	
-	
-
+	printf("\n %s",str1);
 }
